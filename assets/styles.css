@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #2ec48f #f5f5f5;
+}
+
+:root {
+  --bs-body-font-family: "Quicksand", sans-serif;
+  --bs-primary: #2ec48f;
+  --bs-primary-border-color: #2ec48f;
+  --bs-primary-rgb: 46, 196, 143;
+  --bs-link-color: #2ec48f;
+  --bs-navbar-brand-color: #2ec48f;
+  --bs-nav-pills-link-active-bg: #2ec48f;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #2ec48f;
+  --bs-btn-border-color: #2ec48f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #25a879;
+  --bs-btn-hover-border-color: #25a879;
+  --bs-btn-focus-shadow-rgb: 46, 196, 143;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1f8e66;
+  --bs-btn-active-border-color: #1f8e66;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #2ec48f;
+  --bs-btn-disabled-border-color: #2ec48f;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #2ec48f;
+  --bs-btn-border-color: #2ec48f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2ec48f;
+  --bs-btn-hover-border-color: #2ec48f;
+  --bs-btn-focus-shadow-rgb: 46, 196, 143;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #2ec48f;
+  --bs-btn-active-border-color: #2ec48f;
+  --bs-btn-disabled-color: #2ec48f;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #2ec48f;
+}
+
+::-moz-selection {
+  background-color: #2ec48f;
+  color: #fff;
+}
+
+::selection {
+  background-color: #2ec48f;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d5f5e9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2ec48f;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #25a879;
+}
